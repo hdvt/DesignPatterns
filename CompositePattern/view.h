@@ -1,4 +1,10 @@
-﻿#ifndef VIEW_H
+﻿/** ==========================================================================
+*   Design Pattern - Composite 
+*   @author hdvt
+*   @version 11/2018
+==============================================================================*/
+
+#ifndef VIEW_H
 #define VIEW_H
 #include <opencv2/opencv.hpp>
 #include <list>

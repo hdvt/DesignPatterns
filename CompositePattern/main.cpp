@@ -1,10 +1,17 @@
+/** ==========================================================================
+*	Design Pattern - Composite 
+*	@author hdvt
+*	@version 11/2018
+==============================================================================*/
+
+
 #include "include/view.h"
 #include <iostream>
 
 int main()
 {
     CompositeView viewManager;
-    \
+    
     CompositeView* layer1 = new CompositeView();
     layer1->Add(new LeafView("Video 1", "../test.mp4"));
     layer1->Add(new LeafView("Video 2", "../test.mp4"));
